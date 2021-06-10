@@ -1,0 +1,19 @@
+$excluded: ':not(.customize-control-customizer-heading)';
+
+
+#sub-accordion-section-khutar_form_fields_section {
+  #customize-control-khutar_form_fields_padding,
+  #customize-control-khutar_form_fields_spacing,
+  #customize-control-khutar_form_fields_background_color,
+  #customize-control-khutar_form_fields_border_width,
+  #customize-control-khutar_form_fields_border_radius,
+  #customize-control-khutar_input_text_color,
+  #customize-control-khutar_label_spacing {
+	margin-bottom: 0;
+  }
+  .khutar-customizer-link {
+	margin: 0 -15px;
+	padding: 0 10px 10px;
+	background: #fff;
+  }
+}

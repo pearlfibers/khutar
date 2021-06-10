@@ -1,0 +1,25 @@
+{
+	"archive1": {
+		"khutar_blog_archive_layout": "default",
+		"khutar_post_excerpt_length": 15,
+		"khutar_post_thumbnail_box_shadow": 4,
+		"khutar_post_content_ordering": "[\"thumbnail\",\"excerpt\",\"title-meta\"]",
+		"khutar_post_meta_ordering": "[\"date\", \"author\", \"category\"]",
+		"khutar_pagination_type": "number",
+		"khutar_migrated_hfg_colors": true
+	},
+	"archive2": {
+		"khutar_blog_archive_layout": "grid",
+		"khutar_grid_layout": "{\"desktop\":3,\"tablet\":2,\"mobile\":4}",
+		"khutar_pagination_type": "infinite",
+		"khutar_author_avatar": true
+	},
+	"archive3": {
+		"khutar_blog_archive_layout": "covers",
+		"khutar_post_thumbnail_box_shadow": 4,
+		"khutar_post_content_ordering": "[\"thumbnail\",\"title-meta\"]",
+		"khutar_blog_covers_text_color": "#bada55",
+		"khutar_grid_layout": "{\"desktop\":2,\"tablet\":2,\"mobile\":2}",
+		"khutar_enable_masonry": true
+	}
+}

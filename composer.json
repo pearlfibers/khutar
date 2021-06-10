@@ -1,0 +1,58 @@
+{
+  "name": "pearlfibers/khutar",
+  "description": "khutar theme by pearlfibers.",
+  "homepage": "https://pearlfibers.com/themes/khutar/",
+  "license": "GPL-2.0+",
+  "authors": [
+	{
+	  "name": "pearlfibers Team",
+	  "email": "friends@pearlfibers.com.com",
+	  "homepage": "https://pearlfibers.com"
+	}
+  ],
+  "support": {
+	"issues": "https://github.com/pearlfibers/khutar/issues",
+	"source": "https://github.com/pearlfibers/khutar"
+  },
+  "require": {
+	"pearlfibers/pearlfibers-sdk": "^3.0",
+    "wptt/webfont-loader": "^1.1"
+  },
+  "autoload": {
+	"psr-4": {
+	  "HFG\\": "header-footer-grid/",
+	  "khutar_Dash\\": "dashboard/inc/"
+	},
+	"files": [
+	  "vendor/pearlfibers/pearlfibers-sdk/load.php"
+	]
+  },
+  "scripts": {
+	"format": "phpcbf --standard=phpcs.xml --report-summary --report-source -s  --runtime-set testVersion 5.5- ",
+	"format-fix-exit": "\"vendor/bin/phpcbf-fix-exit-0\" --standard=phpcs.xml --report-summary --report-source -s  --runtime-set testVersion 5.5- ",
+	"phpcs": "phpcs --standard=phpcs.xml -s  --runtime-set testVersion 5.5-",
+	"lint": "composer run-script phpcs",
+	"phpcs-i": "phpcs -i",
+	"post-install-cmd": [
+	  "[ ! -z \"$GITHUB_ACTIONS\" ] && yarn run bump-vendor || true"
+	],
+	"post-update-cmd": [
+	  "[ ! -z \"$GITHUB_ACTIONS\" ] && yarn run bump-vendor || true"
+	]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+	"optimize-autoloader": true,
+	"platform-check": false,
+	"platform": {
+	  "php": "5.6"
+	}
+  },
+  "extra": {
+	"installer-disable": "true"
+  },
+  "require-dev": {
+    "pearlfibers/phpcs-ruleset": "dev-main"
+  }
+}

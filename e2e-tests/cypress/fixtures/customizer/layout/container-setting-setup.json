@@ -1,0 +1,8 @@
+{
+	"width": { "khutar_container_width": "{\"mobile\":680,\"tablet\":960,\"desktop\":1200}" },
+	"style": {
+		"khutar_default_container_style": "full-width",
+		"khutar_blog_archive_container_style": "full-width",
+		"khutar_single_post_container_style": "full-width"
+	}
+}

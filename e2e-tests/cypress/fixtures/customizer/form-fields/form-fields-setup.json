@@ -1,0 +1,92 @@
+{
+    "khutar_migrated_hfg_colors": true,
+    "nav_menu_locations": [],
+    "ti_prev_theme": "twentytwentyone",
+    "custom_css_post_id": -1,
+    "khutar_form_fields_padding": {
+        "top": "14",
+        "right": "14",
+        "bottom": "14",
+        "left": "14",
+        "unit": "px"
+    },
+    "khutar_form_fields_spacing": 14,
+    "khutar_form_fields_background_color": "var(--nv-light-bg)",
+    "khutar_form_fields_border_width": {
+        "top": "3",
+        "right": "3",
+        "left": "3",
+        "bottom": "3",
+        "unit": "px"
+    },
+    "khutar_form_fields_border_radius": {
+        "top": "4",
+        "right": "4",
+        "left": "4",
+        "bottom": "4",
+        "unit": "px"
+    },
+    "khutar_form_fields_border_color": "var(--nv-dark-bg)",
+    "khutar_input_text_color": "var(--nv-primary-accent)",
+    "khutar_input_typeface": {
+        "textTransform": "lowercase",
+        "flag": true,
+        "lineHeight": {
+            "suffix": {
+                "mobile": "em",
+                "tablet": "em",
+                "desktop": "px"
+            },
+            "mobile": "",
+            "tablet": "",
+            "desktop": "24"
+        },
+        "fontWeight": "600",
+        "fontSize": {
+            "suffix": {
+                "mobile": "px",
+                "tablet": "px",
+                "desktop": "px"
+            },
+            "mobile": "",
+            "tablet": "",
+            "desktop": "15"
+        },
+        "letterSpacing": {
+            "mobile": "",
+            "tablet": "",
+            "desktop": "1.5"
+        }
+    },
+    "khutar_label_spacing": 20,
+    "khutar_label_typeface": {
+        "textTransform": "capitalize",
+        "flag": true,
+        "lineHeight": {
+            "suffix": {
+                "mobile": "em",
+                "tablet": "em",
+                "desktop": "px"
+            },
+            "mobile": "",
+            "tablet": "",
+            "desktop": "24"
+        },
+        "fontWeight": "100",
+        "fontSize": {
+            "suffix": {
+                "mobile": "px",
+                "tablet": "px",
+                "desktop": "px"
+            },
+            "mobile": "",
+            "tablet": "",
+            "desktop": "15"
+        },
+        "letterSpacing": {
+            "mobile": "",
+            "tablet": "",
+            "desktop": "1.5"
+        }
+    }
+}

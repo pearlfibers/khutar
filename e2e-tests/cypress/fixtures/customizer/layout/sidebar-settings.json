@@ -1,0 +1,22 @@
+{
+	"advanced": {
+		"khutar_ran_builder_migration": true,
+		"khutar_migrated_builders": true,
+		"khutar_migrated_hfg_colors": true,
+		"khutar_advanced_layout_options": true,
+		"khutar_blog_archive_sidebar_layout": "left",
+		"khutar_single_post_sidebar_layout": "right",
+		"khutar_other_pages_sidebar_layout": "left",
+		"khutar_blog_archive_content_width": 20,
+		"khutar_single_post_content_width": 70,
+		"khutar_other_pages_content_width": 70
+	},
+	"site_wide": {
+		"khutar_ran_builder_migration": true,
+		"khutar_migrated_builders": true,
+		"khutar_migrated_hfg_colors": true,
+		"khutar_default_sidebar_layout": "left",
+		"khutar_sitewide_content_width": 50,
+		"khutar_advanced_layout_options": false
+	}
+}

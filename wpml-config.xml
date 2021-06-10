@@ -1,0 +1,19 @@
+<wpml-config>
+  <custom-fields>
+    <custom-field action="copy-once">khutar_meta_content_width</custom-field>
+    <custom-field action="copy-once">khutar_meta_disable_title</custom-field>
+    <custom-field action="copy-once">khutar_meta_sidebar</custom-field>
+    <custom-field action="copy-once">khutar_meta_enable_content_width</custom-field>
+    <custom-field action="copy-once">khutar_meta_disable_header</custom-field>
+    <custom-field action="copy-once">khutar_meta_disable_footer</custom-field>
+  </custom-fields>
+  <admin-texts>
+    <key name="theme_mods_khutar">
+      <key name="khutar_footer_text"/>
+      <key name="khutar_exclusive_products_title"/>
+      <key name="khutar_sale_tag_text"/>
+      <key name="khutar_metadata_separator"/>
+      <key name="khutar_read_more_text"/>
+    </key>
+  </admin-texts>
+</wpml-config>

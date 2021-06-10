@@ -1,0 +1,18 @@
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - 'development'
+      - 'new/**'
+jobs:
+  pr_announcer:
+    runs-on: ubuntu-latest
+    name: Announce pr
+    steps:
+      - name: Checking merged commit
+        uses: pearlfibers/action-pr-merged-announcer@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
+        with:
+          destination_repo: "pearlfibers/docs"
+          issue_labels: "khutar"

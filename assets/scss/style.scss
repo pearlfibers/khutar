@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@import "main/variables";
+@import "main/mixins";
+@import "main/extends";
+@import "main/reset";
+
+@import "main/grid";
+@import "main/typography";
+@import "main/a11y";
+@import "main/khutar-icons";
+@import "main/gutenberg";
+@import "main/utilities";
+
+@import "elements/navigation";
+@import "elements/footer";
+@import "elements/page";
+@import "elements/form-elements";
+@import "elements/blog";
+@import "elements/content";
+@import "elements/gallery";
+@import "elements/sidebar";
+@import "elements/breadcrumbs";
+@import "elements/hfg-alignments";
+
+@import "main/media-queries";
+@import "compat/elementor";
+
+@import "../../header-footer-grid/assets/scss/style";

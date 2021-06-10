@@ -1,0 +1,6 @@
+{
+	"hidden": { "khutar_layout_single_post_elements_order": "[]" },
+	"enabled": {
+		"khutar_layout_single_post_elements_order": "[\"post-navigation\",\"tags\",\"content\",\"comments\",\"title-meta\",\"thumbnail\"]"
+	}
+}
